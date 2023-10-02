@@ -1,0 +1,309 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    font-family: monospace;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.actions a {
+    background-color: #ff6600;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.actions a:hover {
+    background-color: #ff4500;
+}
+
+.search {
+    text-align: right;
+    padding: 20px;
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #ff4500;
+}
+
+.company-info {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.company-info h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.company-info p {
+    font-size: 18px;
+    color: #666;
+}
+
+.company-info h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.company-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.company-info li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.actions {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.action {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.action img {
+    max-width: 100%;
+}
+
+.action h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.action p {
+    font-size: 16px;
+    color: #666;
+}
+
+.action button {
+
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border-radius: 70px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.action button:hover {
+    background-color: #ff4500;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    .actions {
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .action {
+        display: inline-block;
+        vertical-align: top;
+        margin: 10px;
+        border: 1px solid #ccc;
+        padding: 20px;
+        background-color: #f9f9f9;
+        width: 300px; 
+    }
+
+    .action img {
+        max-width: 100%;
+    }
+
+    .action h3 {
+        font-size: 40px;
+        color: #333;
+    }
+
+    .action p {
+        font-size: 16px;
+        color: #666;
+    }
+
+    .action button {
+        padding: 10px 20px;
+        background-color: #ff6600;
+        color: white;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .action button:hover {
+        background-color: #ff4500;
+    }
+
+    .company-info ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .company-info li {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 10px;
+        border-left: 2px solid #ff6600;
+        padding-left: 10px;
+    }
+    .company-info {
+        background-color: #ffffff;
+        color: white;
+        padding: 40px;
+        text-align: center;
+    }
+
+    .company-info h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .company-info p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .company-info h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .company-info ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+
+    .company-info li {
+        font-size: 18px;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        position: relative;
+    }
+
+    .company-info li:before {
+        content: "\2022"; 
+        position: absolute;
+        left: 0;
+        color: #ff4500; 
+    }
+
+    .ggg{
+        text-align: left;
+    }
+
+    .gggg {
+        font-size: 24px;
+        font-style: italic;
+        text-align: left;
+        
+    }
+
+    .ggggg {
+        font-size: 20px;
+        font-style: italic;
+        text-align: left;
+    }
+
+    .comments {
+        margin-top: 40px;
+    }
+
+    .comment {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+    }
+
+    .comment button.reply {
+        background-color: #ff6600;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .creator-image {
+        max-width: 200px; 
+        margin-right: 20px; 
+        border: 2px solid rgb(216, 100, 100); 
+        padding: 0.5 px; 
+        border-radius: 30px; 
+    }
+    .company-info-content {
+        display: flex;
+        align-items: center;
+    }
+    
+    .company-info-text {
+        flex: 1; 
+    }
